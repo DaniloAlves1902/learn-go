@@ -25,6 +25,6 @@ func main() {
 
 	fmt.Println(variable5, variable6)
 
-    //exercise
+    const a int = 1
 
 }

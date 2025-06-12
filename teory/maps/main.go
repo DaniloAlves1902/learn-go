@@ -46,6 +46,15 @@ func main() {
 
 	fmt.Println(user2)
 
+	delete(user2, "course")
+	fmt.Println(user2)
+
+	user2["gender"] = map[string]string{
+		"name": "female",
+	}
+
+	fmt.Println(user2)
+
 	stock := map[string]map[string]int{
 		"tech": {
 			"keyboard":            10,
